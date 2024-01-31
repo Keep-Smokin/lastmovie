@@ -40,7 +40,7 @@ body {
 #date {
 /*	outline: 1px solid red;*/
 	width: 100%;
-	min-width: 70vh;
+	
 /*	margin: auto;*/
 	display: flex;
 	flex-wrap: wrap;
@@ -93,6 +93,10 @@ body {
 		margin-left: 4vw;
 	}
 	
+	.date {
+		min-width: 70vh;
+	}
+	
 	#date img {
 		filter: invert(0.9);
 		margin-top: 10vh;
@@ -141,7 +145,7 @@ body {
 		margin: auto;
 		display: flex;
 		justify-content: center;
-		padding-bottom: 20px;
+		padding-bottom: 3vh;
 	}
 	
 	#title img {
@@ -150,9 +154,10 @@ body {
 	}
 	
 	#date {
-		padding-top: 20px;
+		padding-top: 3vh;
 		margin: auto;
 		justify-content: center;
+		min-width: none;
 	}
 	
 	#date img {
