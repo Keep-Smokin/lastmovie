@@ -6,13 +6,13 @@
 body {
 	background-image: url('assets/background.png');
 /*	background-size: auto max(100vw, 100vh);*/
-	background-size: 120vw auto;
+	background-size: max(56vw, 66vh) auto;
 /*	background-size: 200%;*/
 	background-repeat: no-repeat;
 	background-position: 100% 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #E5E5E5;
+	background-color: #ECECEC;
 	font-family: 'Montserrat', sans-serif;
 	
 }
@@ -55,10 +55,10 @@ body {
 
 #photo {
 	display: none;
-	padding: 30px 0px;
 	width: 100vw;
 	margin: auto;
 	justify-content: center;
+	background-color: #ECECEC;
 }
 
 #photo img {
@@ -113,13 +113,11 @@ body {
 /*		width: calc(100vw - 60px);*/
 		margin-left: 30px;
 /*		align-self: flex-end;*/
-		width: 65%;
+		width: 62%;
 	}
 	
 	.footer p {
 		color: #191919;
-		
-		
 		font-size: 0.8em;
 	}
 }
@@ -143,7 +141,7 @@ body {
 		margin: auto;
 		display: flex;
 		justify-content: center;
-		
+		padding-bottom: 20px;
 	}
 	
 	#title img {
@@ -152,6 +150,7 @@ body {
 	}
 	
 	#date {
+		padding-top: 20px;
 		margin: auto;
 		justify-content: center;
 	}
