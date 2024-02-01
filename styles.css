@@ -69,10 +69,9 @@ body {
 
 
 .footer img {
-		padding: 0px 5px;
 		width: 32px;
 		height: auto;
-	}
+}
 
 
 /*landscape*/
@@ -113,9 +112,9 @@ body {
 		flex-direction: column;
 		text-align: left;
 		margin-top: auto;
-		padding-bottom: 40px;
+		padding-bottom: 4vh;
 /*		width: calc(100vw - 60px);*/
-		margin-left: 60px;
+		margin-left: 4vw;
 /*		align-self: flex-end;*/
 		width: 62%;
 	}
