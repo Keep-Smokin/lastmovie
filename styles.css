@@ -68,6 +68,7 @@ body {
 }
 
 #socials {
+	padding-top: 2em;
 	margin-top: auto;
 	text-align: center;
 }
@@ -115,9 +116,9 @@ body {
 		flex-direction: column;
 		text-align: left;
 		margin-top: auto;
-		padding-bottom: 4vh;
+		padding-bottom: 1.5em;
 /*		width: calc(100vw - 60px);*/
-		margin-left: 4vw;
+		margin-left: 3em;
 /*		align-self: flex-end;*/
 		width: 62%;
 	}
