@@ -67,12 +67,15 @@ body {
 	height: auto;
 }
 
-
-.footer img {
-		width: 32px;
-		height: auto;
+#socials {
+	margin-top: auto;
+	text-align: center;
 }
 
+#socials img {
+	height: 3vw;
+	min-height: 2em;
+}
 
 /*landscape*/
 @media only screen and (min-aspect-ratio: 1/1) {
@@ -170,7 +173,7 @@ body {
 	
 	.footer {
 		text-align: center;
-		margin-top: 32px;
+		margin-top: 2vh;
 	}
 	
 	.footer p {
